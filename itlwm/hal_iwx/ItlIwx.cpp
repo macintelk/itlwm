@@ -12736,6 +12736,7 @@ static const struct iwl_dev_info iwl_dev_info_table[] = {
     IWL_DEV_INFO(0x43F0, 0x007C, iwl_ax201_cfg_qu_hr, NULL),
     IWL_DEV_INFO(0x43F0, 0x1651, killer1650s_2ax_cfg_qu_b0_hr_b0, iwl_ax201_killer_1650s_name),
     IWL_DEV_INFO(0x43F0, 0x1652, killer1650i_2ax_cfg_qu_b0_hr_b0, iwl_ax201_killer_1650i_name),
+    IWL_DEV_INFO(0xA0F0, 0x0244, iwl_ax201_cfg_qu_hr, NULL),
     IWL_DEV_INFO(0x43F0, 0x2074, iwl_ax201_cfg_qu_hr, NULL),
     IWL_DEV_INFO(0x43F0, 0x4070, iwl_ax201_cfg_qu_hr, NULL),
     IWL_DEV_INFO(0xA0F0, 0x0070, iwl_ax201_cfg_qu_hr, NULL),
@@ -13066,11 +13067,11 @@ static const struct iwl_dev_info iwl_dev_info_table[] = {
                   iwl_qu_c0_hr_b0, iwl_ax203_name),
     
     /* QuZ */
-    _IWL_DEV_INFO(IWL_CFG_ANY, IWL_CFG_ANY,
+    /*_IWL_DEV_INFO(IWL_CFG_ANY, IWL_CFG_ANY,
                   IWL_CFG_MAC_TYPE_QUZ, IWL_CFG_ANY,
                   IWL_CFG_RF_TYPE_HR1, IWL_CFG_ANY,
                   IWL_CFG_ANY, IWL_CFG_ANY, IWL_CFG_NO_CDB,
-                  iwl_quz_a0_hr1_b0, iwl_ax101_name),
+                  iwl_quz_a0_hr1_b0, iwl_ax101_name),*/
     _IWL_DEV_INFO(IWL_CFG_ANY, IWL_CFG_ANY,
                   IWL_CFG_MAC_TYPE_QUZ, IWX_SILICON_B_STEP,
                   IWL_CFG_RF_TYPE_HR2, IWL_CFG_ANY,
